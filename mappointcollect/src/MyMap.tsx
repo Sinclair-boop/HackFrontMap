@@ -29,6 +29,7 @@ let list = [
 const MyMap = () => {
   const [collectionPoints, setCollectionPoints] = useState<any>(list);
   const [myPosition, setMyPosition] = useState<any>(listP[0]);
+  const fdsfs: string = "";
 
   useEffect(() => {
     // Get the user's location
